@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>IC Form</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+
+<!-- wrapped form in div to center -->
+    <div>
+
+    <form>
+
+        <h1>Registration Form</h1>
+
+<!-- first name field -->
+
+        <div>
+            <label for="firstName">First Name: </label>
+            <input type="text" name="firstName" id="firstName">
+        </div>
+
+<!-- last name field -->
+
+    <div>
+        <label for="lastName">Last Name: </label>
+        <input type="text" name="lastName" id="lastName">
+    </div>
+        
+        
+<!-- Username field -->
+        <div>
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username">
+        </div>
+        
+<!-- password field -->
+        <div>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password" required>
+        </div>
+        
+
+<!-- email field -->
+        <div>
+        <label for="email">Email: </label>
+        <input type="email" name="email" required id="email" required>
+        </div>
+        
+
+<!-- mobile no field -->
+        <div>
+        <label for="mobileNo">Mobile No.: </label>
+        <input type="number" name="mobileNo" id="mobileNo">
+        </div>
+        
+
+<!-- city selection -->
+        <div>
+        <label for="citySelection">City</label>
+        <select name="citySelection" id="citySelection">
+            <option value="0">--</option>
+            <option value="1">Memphis</option>
+            <option value="2">Nashville</option>
+            <option value="3">Knoxville</option>
+        </select>
+        </div>
+       
+<!-- submit/reset buttons -->
+        <button type="submit">Register</button>
+
+    </form>
+    </div>
+    
+</body>
+
+</html>
